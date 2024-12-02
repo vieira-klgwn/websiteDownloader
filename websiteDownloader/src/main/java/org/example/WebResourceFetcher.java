@@ -17,9 +17,9 @@ import org.jsoup.select.Elements;
 public class WebResourceFetcher {
 
     // PostgreSQL configuration
-    private static final String DB_CONNECTION = "jdbc:postgresql://localhost:5432/downloader";
-    private static final String DB_USERNAME = "postgres";
-    private static final String DB_PASSWORD = "klgwn";
+    private static final String DB_CONNECTION = "jdbc:postgresql://localhost:5432/your_database_name";
+    private static final String DB_USERNAME = "enter_your_posgres_username";
+    private static final String DB_PASSWORD = "enter_your_postgres_password";
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
